@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CPF" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="RG" Type="varchar" MaxLength="8" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="60" Nullable="false" />
+    <Property Name="Telefone" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Celular" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Pontos" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Entrada">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdFuncionario" Type="int" Nullable="false" />
+    <Property Name="IdFornecedor" Type="int" Nullable="false" />
+    <Property Name="Data" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Fornecedor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CNPJ" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="RazaoSocial" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="60" Nullable="false" />
+    <Property Name="Telefone" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contato" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ativo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Funcionario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CPF" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="RG" Type="varchar" MaxLength="8" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="60" Nullable="false" />
+    <Property Name="Telefone" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Endereco" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Senha" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Administrador" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ItemEntrada">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdProduto" Type="int" Nullable="false" />
+    <Property Name="IdEntrada" Type="int" Nullable="false" />
+    <Property Name="Quantidade" Type="int" Nullable="false" />
+    <Property Name="ValorCompra" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ItemVenda">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdProduto" Type="int" Nullable="false" />
+    <Property Name="IdVenda" Type="int" Nullable="false" />
+    <Property Name="Quantidade" Type="int" Nullable="false" />
+    <Property Name="ValorVenda" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Produto">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Descricao" Type="varchar" MaxLength="50" />
+    <Property Name="Laboratorio" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Quantidade" Type="int" Nullable="false" />
+    <Property Name="ValorVenda" Type="float" Nullable="false" />
+    <Property Name="ativo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Venda">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdCliente" Type="int" Nullable="false" />
+    <Property Name="IdFuncionario" Type="int" Nullable="false" />
+    <Property Name="Data" Type="datetime" Nullable="false" />
+    <Property Name="FormaPagamento" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Desconto" Type="float" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Entrada_Fornecedor">
+    <End Role="Fornecedor" Type="Self.Fornecedor" Multiplicity="1" />
+    <End Role="Entrada" Type="Self.Entrada" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Fornecedor">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Entrada">
+        <PropertyRef Name="IdFornecedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Entrada_Funcionario">
+    <End Role="Funcionario" Type="Self.Funcionario" Multiplicity="1" />
+    <End Role="Entrada" Type="Self.Entrada" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Funcionario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Entrada">
+        <PropertyRef Name="IdFuncionario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemEntrada_Entrada">
+    <End Role="Entrada" Type="Self.Entrada" Multiplicity="1" />
+    <End Role="ItemEntrada" Type="Self.ItemEntrada" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entrada">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ItemEntrada">
+        <PropertyRef Name="IdEntrada" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemEntrada_Produto">
+    <End Role="Produto" Type="Self.Produto" Multiplicity="1" />
+    <End Role="ItemEntrada" Type="Self.ItemEntrada" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produto">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ItemEntrada">
+        <PropertyRef Name="IdProduto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemVenda_Produto">
+    <End Role="Produto" Type="Self.Produto" Multiplicity="1" />
+    <End Role="ItemVenda" Type="Self.ItemVenda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produto">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ItemVenda">
+        <PropertyRef Name="IdProduto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemVenda_Venda">
+    <End Role="Venda" Type="Self.Venda" Multiplicity="1" />
+    <End Role="ItemVenda" Type="Self.ItemVenda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Venda">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ItemVenda">
+        <PropertyRef Name="IdVenda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Venda_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Venda" Type="Self.Venda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Venda">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Venda_Funcionario">
+    <End Role="Funcionario" Type="Self.Funcionario" Multiplicity="1" />
+    <End Role="Venda" Type="Self.Venda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Funcionario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Venda">
+        <PropertyRef Name="IdFuncionario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DatabaseModelStoreContainer">
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Entrada" EntityType="Self.Entrada" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Fornecedor" EntityType="Self.Fornecedor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Funcionario" EntityType="Self.Funcionario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ItemEntrada" EntityType="Self.ItemEntrada" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ItemVenda" EntityType="Self.ItemVenda" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Produto" EntityType="Self.Produto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Venda" EntityType="Self.Venda" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Entrada_Fornecedor" Association="Self.FK_Entrada_Fornecedor">
+      <End Role="Fornecedor" EntitySet="Fornecedor" />
+      <End Role="Entrada" EntitySet="Entrada" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Entrada_Funcionario" Association="Self.FK_Entrada_Funcionario">
+      <End Role="Funcionario" EntitySet="Funcionario" />
+      <End Role="Entrada" EntitySet="Entrada" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemEntrada_Entrada" Association="Self.FK_ItemEntrada_Entrada">
+      <End Role="Entrada" EntitySet="Entrada" />
+      <End Role="ItemEntrada" EntitySet="ItemEntrada" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemEntrada_Produto" Association="Self.FK_ItemEntrada_Produto">
+      <End Role="Produto" EntitySet="Produto" />
+      <End Role="ItemEntrada" EntitySet="ItemEntrada" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemVenda_Produto" Association="Self.FK_ItemVenda_Produto">
+      <End Role="Produto" EntitySet="Produto" />
+      <End Role="ItemVenda" EntitySet="ItemVenda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemVenda_Venda" Association="Self.FK_ItemVenda_Venda">
+      <End Role="Venda" EntitySet="Venda" />
+      <End Role="ItemVenda" EntitySet="ItemVenda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Venda_Cliente" Association="Self.FK_Venda_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Venda" EntitySet="Venda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Venda_Funcionario" Association="Self.FK_Venda_Funcionario">
+      <End Role="Funcionario" EntitySet="Funcionario" />
+      <End Role="Venda" EntitySet="Venda" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

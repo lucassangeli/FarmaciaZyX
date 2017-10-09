@@ -1,0 +1,102 @@
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\obj\Debug\Farmacia.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\obj\Debug\Farmacia.Form1.resources
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\obj\Debug\Farmacia.Properties.Resources.resources
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.GenerateResource.Cache
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\bin\Debug\DataBese.mdf
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\bin\Debug\DataBese_log.ldf
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\bin\Debug\Farmacia.exe.config
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\bin\Debug\Farmacia.exe
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\bin\Debug\Farmacia.pdb
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\bin\Debug\EntityFramework.dll
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\bin\Debug\EntityFramework.xml
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\obj\Debug\Farmacia.exe
+C:\Users\Lucas\documents\visual studio 2017\Projects\Farmacia\Farmacia\obj\Debug\Farmacia.pdb
+E:\Farmacia\Farmacia\bin\Debug\Farmacia.exe.config
+E:\Farmacia\Farmacia\obj\Debug\Farmacia.exe
+E:\Farmacia\Farmacia\obj\Debug\Farmacia.pdb
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\Farmacia.exe.config
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.exe
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.pdb
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.Properties.Resources.resources
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.GenerateResource.Cache
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\Database.mdf
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\Database_log.ldf
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\Farmacia.exe
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\Farmacia.pdb
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\EntityFramework.dll
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\EntityFramework.xml
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\itextsharp.dll
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\Newtonsoft.Json.dll
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Client.dll
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Common.dll
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.ContentModel.dll
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Frameworks.dll
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Packaging.Core.dll
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Packaging.Core.Types.dll
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Packaging.dll
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Repositories.dll
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.RuntimeModel.dll
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Versioning.dll
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\itextsharp.xml
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\Newtonsoft.Json.xml
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Client.xml
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Common.xml
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.ContentModel.xml
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Frameworks.xml
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Packaging.xml
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Packaging.Core.xml
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Packaging.Core.Types.xml
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Repositories.xml
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.RuntimeModel.xml
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Versioning.xml
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.frmBase.resources
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.csprojResolveAssemblyReference.cache
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.GUI.frmLogin.resources
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.GUI.frmItemEntrada.resources
+C:\Users\i3i\Desktop\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.GUI.frmItemSaida.resources
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\Database.mdf
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\Database_log.ldf
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\Farmacia.exe.config
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\Farmacia.exe
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\Farmacia.pdb
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\EntityFramework.dll
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\itextsharp.dll
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Client.dll
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Common.dll
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.ContentModel.dll
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Frameworks.dll
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Packaging.Core.dll
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Packaging.Core.Types.dll
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Packaging.dll
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Repositories.dll
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.RuntimeModel.dll
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Versioning.dll
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\EntityFramework.xml
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\itextsharp.xml
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Client.xml
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Common.xml
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.ContentModel.xml
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Frameworks.xml
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Packaging.xml
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Packaging.Core.xml
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Packaging.Core.Types.xml
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Repositories.xml
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.RuntimeModel.xml
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\bin\Debug\NuGet.Versioning.xml
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.frmBase.resources
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.GUI.frmItemEntrada.resources
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.GUI.frmItemSaida.resources
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.GUI.frmLogin.resources
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.Properties.Resources.resources
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.GenerateResource.Cache
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.exe
+C:\Users\Lucas\Dropbox\Information Tech\Entra21\aula40\Farmacia\Farmacia\obj\Debug\Farmacia.pdb

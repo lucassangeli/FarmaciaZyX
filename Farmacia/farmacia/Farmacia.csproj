@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0873F7AF-2596-4A71-914A-75D2CA58DD6E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Farmacia</RootNamespace>
+    <AssemblyName>Farmacia</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.11\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Client.4.0.0\lib\net45\NuGet.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Common.4.0.0\lib\net45\NuGet.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.ContentModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.ContentModel.4.0.0\lib\net45\NuGet.ContentModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Frameworks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Frameworks.4.0.0\lib\net45\NuGet.Frameworks.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Packaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Packaging.4.0.0\lib\net45\NuGet.Packaging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Packaging.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Packaging.Core.4.0.0\lib\net45\NuGet.Packaging.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Packaging.Core.Types, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Packaging.Core.Types.4.0.0\lib\net45\NuGet.Packaging.Core.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Repositories, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Repositories.4.0.0\lib\net45\NuGet.Repositories.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.RuntimeModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.RuntimeModel.4.0.0\lib\net45\NuGet.RuntimeModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Versioning, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Versioning.4.0.0\lib\net45\NuGet.Versioning.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\BaseValidator.cs" />
+    <Compile Include="BLL\ClienteBLL.cs" />
+    <Compile Include="BLL\EntradaBLL.cs" />
+    <Compile Include="BLL\FornecedorBLL.cs" />
+    <Compile Include="BLL\FuncionarioBLL.cs" />
+    <Compile Include="BLL\ItemEntradaBLL.cs" />
+    <Compile Include="BLL\ItemVendaBLL.cs" />
+    <Compile Include="BLL\ProdutoBLL.cs" />
+    <Compile Include="BLL\VendaBLL.cs" />
+    <Compile Include="GUI\frmItemEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmItemEntrada.Designer.cs">
+      <DependentUpon>frmItemEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmItemVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmItemVenda.Designer.cs">
+      <DependentUpon>frmItemVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\Bridge.cs" />
+    <Compile Include="DTO\Cliente.cs">
+      <DependentUpon>DbFarmaciaZyX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\ClienteDao.cs" />
+    <Compile Include="DTO\DbFarmaciaZyX.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DbFarmaciaZyX.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\DbFarmaciaZyX.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DbFarmaciaZyX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\DbFarmaciaZyX.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DbFarmaciaZyX.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\EntityCrud.cs" />
+    <Compile Include="DTO\Entrada.cs">
+      <DependentUpon>DbFarmaciaZyX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\EntradaDao.cs" />
+    <Compile Include="GUI\frmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmBase.Designer.cs">
+      <DependentUpon>frmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\Fornecedor.cs">
+      <DependentUpon>DbFarmaciaZyX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\FornecedorDao.cs" />
+    <Compile Include="DTO\Funcionario.cs">
+      <DependentUpon>DbFarmaciaZyX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\FuncionarioDao.cs" />
+    <Compile Include="DTO\ItemEntrada.cs">
+      <DependentUpon>DbFarmaciaZyX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\ItemEntradaDao.cs" />
+    <Compile Include="DTO\ItemVenda.cs">
+      <DependentUpon>DbFarmaciaZyX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\ItemVendaDao.cs" />
+    <Compile Include="DTO\Produto.cs">
+      <DependentUpon>DbFarmaciaZyX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\ProdutoDao.cs" />
+    <Compile Include="GUI\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\CommonValidations.cs" />
+    <Compile Include="DTO\Venda.cs">
+      <DependentUpon>DbFarmaciaZyX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\VendaDao.cs" />
+    <Compile Include="Utility\Criptografia.cs" />
+    <Compile Include="Utility\IAcessoDb.cs" />
+    <Compile Include="Utility\StaticUser.cs" />
+    <Compile Include="Utility\XMLCreator.cs" />
+    <EmbeddedResource Include="GUI\frmBase.resx">
+      <DependentUpon>frmBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmItemEntrada.resx">
+      <DependentUpon>frmItemEntrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmItemVenda.resx">
+      <DependentUpon>frmItemVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EntityDeploy Include="DTO\DbFarmaciaZyX.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DbFarmaciaZyX.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DTO\DbFarmaciaZyX.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DbFarmaciaZyX.edmx</DependentUpon>
+      <LastGenOutput>DbFarmaciaZyX.Context.cs</LastGenOutput>
+    </None>
+    <None Include="DTO\DbFarmaciaZyX.edmx.diagram">
+      <DependentUpon>DbFarmaciaZyX.edmx</DependentUpon>
+    </None>
+    <None Include="DTO\DbFarmaciaZyX.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DbFarmaciaZyX.edmx</DependentUpon>
+      <LastGenOutput>DbFarmaciaZyX.cs</LastGenOutput>
+    </None>
+    <None Include="GUI\packages.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GUI\App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

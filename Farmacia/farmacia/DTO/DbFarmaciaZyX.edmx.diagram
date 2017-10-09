@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="da3f2d2bc3d74625849d8cc355b39a45" Name="Diagram1">
+        <EntityTypeShape EntityType="DatabaseModel.Cliente" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Entrada" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Fornecedor" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Funcionario" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.ItemEntrada" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.ItemVenda" Width="1.5" PointX="11.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Produto" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Venda" Width="1.5" PointX="6" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="DatabaseModel.FK_Venda_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_Entrada_Fornecedor" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_Entrada_Funcionario" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_ItemEntrada_Entrada" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_Venda_Funcionario" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_ItemEntrada_Produto" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_ItemVenda_Produto" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_ItemVenda_Venda" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
