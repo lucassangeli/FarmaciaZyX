@@ -20,7 +20,5 @@ I - Informações pré-cadastradas para o login no aplicativo:
 
 II - Para o uso completo do aplicativo, é necessário mudar as três
      'connection strings' localizadas no 'App.config' dentro da pasta
-     'GUI'.
-     
-      Por vezes, o Visual Studio cria outro App.Config fora dessa pasta.
+     'GUI'.Por vezes, o Visual Studio cria outro App.Config fora dessa pasta.
       Se esse for o caso, basta deletá-lo e alterar as 'connection string' do 'App.config' da pasta 'GUI'.
